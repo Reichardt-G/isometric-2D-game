@@ -1,0 +1,1646 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.38f1 (c5d5a7410213) revision 12965287'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 8005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Gui-g/Jogo 2D isométrico
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59873
+Successfully changed project path to: C:/Users/Gui-g/Jogo 2D isométrico
+C:/Users/Gui-g/Jogo 2D isométrico
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17752]  Target information:
+
+Player connection [17752]  * "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3013600901 [EditorId] 3013600901 [Version] 1048832 [Id] WindowsEditor(7,G-REICHARDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17752] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17752] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 38.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.38f1 (c5d5a7410213)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gui-g/Jogo 2D isométrico/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018115 seconds.
+- Loaded All Assemblies, in  0.824 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.229 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (866ms)
+		LoadAssemblies (716ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (57.6 KB). Loaded Objects now: 3646.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 6.668000 ms (FindLiveObjects: 0.702600 ms CreateObjectMapping: 0.794500 ms MarkObjects: 4.905100 ms  DeleteObjects: 0.264000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 782543.905167 seconds.
+  path: Assets/Assets_DevilsWorkShop
+  artifactKey: Guid(fceb66cdba376f341bd33f96729e3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_DevilsWorkShop using Guid(fceb66cdba376f341bd33f96729e3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfa5798345e7bc6c1f13bc5d15f36e8b') in 0.007153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 246.935192 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00001.png
+  artifactKey: Guid(f8b3b9ab74b97084f8e33658d88dd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00001.png using Guid(f8b3b9ab74b97084f8e33658d88dd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0421f1a513c45588b7145b752d58d69') in 0.112020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40008.png
+  artifactKey: Guid(046572e170026be47988d85d9ceaa8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40008.png using Guid(046572e170026be47988d85d9ceaa8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7661aa1590574b2d293696bfbc9e1d1') in 0.019010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30007.png
+  artifactKey: Guid(140ab943255855640867208e08f37176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30007.png using Guid(140ab943255855640867208e08f37176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5129a386bee57292821f4a80adaaf787') in 0.017953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20002.png
+  artifactKey: Guid(e4c19d36d514a40458dba99607a4f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20002.png using Guid(e4c19d36d514a40458dba99607a4f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63694480614e69c4f76de6dfd96d84e6') in 0.024492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20014.png
+  artifactKey: Guid(11890b4b56ee09d409604cf1b0a61697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20014.png using Guid(11890b4b56ee09d409604cf1b0a61697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e0f64a7bc8d8d47e31895bc898e189f') in 0.020005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40000.png
+  artifactKey: Guid(a3c78e991bf1fe94cbac33db14766d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40000.png using Guid(a3c78e991bf1fe94cbac33db14766d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23d8b486336063c81e31ccd65c1c6993') in 0.024012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00009.png
+  artifactKey: Guid(5dfa1faec2eaa9742aeebca16c43bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00009.png using Guid(5dfa1faec2eaa9742aeebca16c43bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b6c65e49ec715ef01fcecbe43eb73cc') in 0.021856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10012.png
+  artifactKey: Guid(17ebdddb7843640448d59664f5c08dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10012.png using Guid(17ebdddb7843640448d59664f5c08dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1837e5c33cf48228ce8e4302e17535f7') in 0.019594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00003.png
+  artifactKey: Guid(809d54b37bb0f264aa94da05b05ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00003.png using Guid(809d54b37bb0f264aa94da05b05ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c031f1d444a4dbae969069b8e6d0eff') in 0.022821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20006.png
+  artifactKey: Guid(86eeaf00d32348345814ec26242b8d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20006.png using Guid(86eeaf00d32348345814ec26242b8d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '656e37a561344b54ec6c0641a018f610') in 0.019765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00012.png
+  artifactKey: Guid(b177d40c904cad64c93399ef60ba54cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00012.png using Guid(b177d40c904cad64c93399ef60ba54cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1c375261343b8c153b24df8423887f87') in 0.019908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20013.png
+  artifactKey: Guid(31b4a7900df36ed449ecdff1fdd72821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20013.png using Guid(31b4a7900df36ed449ecdff1fdd72821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a2b7368e440d4ec37eebadc629de9bc') in 0.019647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20011.png
+  artifactKey: Guid(1d59a8f963005e14a88e543824d7fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20011.png using Guid(1d59a8f963005e14a88e543824d7fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6edd2557c43ab30929ccc99a72bdea19') in 0.019523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30010.png
+  artifactKey: Guid(d9b10abb9ed8aa341be0225b06bc9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30010.png using Guid(d9b10abb9ed8aa341be0225b06bc9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '013d44b8aa9312e996d0aa2a8720a318') in 0.019147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30006.png
+  artifactKey: Guid(e785a9865b8910940b1c62a813a24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30006.png using Guid(e785a9865b8910940b1c62a813a24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92256c0810f186d1ed265913363df4ae') in 0.020183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20007.png
+  artifactKey: Guid(fa56b66e76cb92b4dbeb264e343db8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20007.png using Guid(fa56b66e76cb92b4dbeb264e343db8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a3a99538cb1f8196e0663e9ec33e041') in 0.023091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00008.png
+  artifactKey: Guid(09057c1ec0a5c2148b3c8423046b84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00008.png using Guid(09057c1ec0a5c2148b3c8423046b84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f87c78e7d68961bae60073cff03d5168') in 0.020707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40006.png
+  artifactKey: Guid(1d9ad3a7647417c46a9a8607d3dbc2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40006.png using Guid(1d9ad3a7647417c46a9a8607d3dbc2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd39988c50c189f311b4cc24443887445') in 0.019600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10009.png
+  artifactKey: Guid(4830702cd61aea840be5e2db320387d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10009.png using Guid(4830702cd61aea840be5e2db320387d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71e85d8bea0dafa94e6f525d069a4f8e') in 0.019222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30002.png
+  artifactKey: Guid(4bf4680d7cb547a4db4bab86807b991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30002.png using Guid(4bf4680d7cb547a4db4bab86807b991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3024d3f1425f0f688543ad4824df43d1') in 0.023255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30005.png
+  artifactKey: Guid(a26a6bf25d609124cb3701e5ad09f97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30005.png using Guid(a26a6bf25d609124cb3701e5ad09f97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5d6837fb8ca5adcf338837329da44c7') in 0.021017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10005.png
+  artifactKey: Guid(7439a1dab0855ba4181113d40551d195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10005.png using Guid(7439a1dab0855ba4181113d40551d195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e9fec74cc5fb248f83942a84605f8a13') in 0.022967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20004.png
+  artifactKey: Guid(91ffd3545efe26b4b83d5af3078da188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20004.png using Guid(91ffd3545efe26b4b83d5af3078da188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dffdb33a3bb0b96b3d2e7d78a1f6ad10') in 0.025408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10006.png
+  artifactKey: Guid(544acd4963da4b04fbc8094eb68cc3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10006.png using Guid(544acd4963da4b04fbc8094eb68cc3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'de57c344e5f97a4884f4fc5597f06cac') in 0.025553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20003.png
+  artifactKey: Guid(3999b8e51728e9b4ebeae6033df40890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20003.png using Guid(3999b8e51728e9b4ebeae6033df40890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f751b242e4890ed69fb93420252ff583') in 0.020250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30004.png
+  artifactKey: Guid(0635b8764efe2d846a669b7aa45db85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30004.png using Guid(0635b8764efe2d846a669b7aa45db85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '119c3480e98019bcbb7adbd7f5992ad4') in 0.024289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10001.png
+  artifactKey: Guid(ca1ab652356686645aa49ce61154cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10001.png using Guid(ca1ab652356686645aa49ce61154cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e065c7ec31804947a0f236442f1e2a2a') in 0.021461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40012.png
+  artifactKey: Guid(ff92447c50662024bbbba1de8576d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40012.png using Guid(ff92447c50662024bbbba1de8576d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd60d6d3ffc9ae00b15fcf000a4bc8439') in 0.025888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30015.png
+  artifactKey: Guid(a7db5136297f2e54e871489b3ead0ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30015.png using Guid(a7db5136297f2e54e871489b3ead0ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e058f0075c49a1ea4e3cf8edf2630dbe') in 0.026211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30001.png
+  artifactKey: Guid(e92c3253a5b3dcc43ac6acc4b6b75364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30001.png using Guid(e92c3253a5b3dcc43ac6acc4b6b75364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e5ef4766a082c17bbbf0d67808ad4c1') in 0.023957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10002.png
+  artifactKey: Guid(9409a295df7e0894d82b4bdebe19d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10002.png using Guid(9409a295df7e0894d82b4bdebe19d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af25a894df12e6f1e55a4a04c66cc4b8') in 0.022260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10003.png
+  artifactKey: Guid(06cc556839681764793cc464916194b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10003.png using Guid(06cc556839681764793cc464916194b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b176ad29ede7b559aef59e8d74434dd2') in 0.024176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00010.png
+  artifactKey: Guid(02d4d51c8949d9b44847abeb6b144a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00010.png using Guid(02d4d51c8949d9b44847abeb6b144a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d4080f96bfa1a43d3818bba5a2e8715') in 0.024261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10011.png
+  artifactKey: Guid(1c2361067d1211847a898d493b38b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10011.png using Guid(1c2361067d1211847a898d493b38b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1d4d4760e415d6e09f440db44847505') in 0.023673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00013.png
+  artifactKey: Guid(510d366fd07aeed4ca02da44857e72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00013.png using Guid(510d366fd07aeed4ca02da44857e72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a2f66be98e127041355a454a947838c') in 0.022646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30013.png
+  artifactKey: Guid(7a27e40561aad464cbfa734d2acc562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30013.png using Guid(7a27e40561aad464cbfa734d2acc562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a9836dc660fc1b63c298c7bfc8def8b') in 0.024477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40010.png
+  artifactKey: Guid(a67948f66d924bf4f807ec542ebda37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40010.png using Guid(a67948f66d924bf4f807ec542ebda37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62b61e0b2a996f44126cbbfc7cd28528') in 0.026448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40011.png
+  artifactKey: Guid(4394b5c0aaaa239489bf172c60bdf3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40011.png using Guid(4394b5c0aaaa239489bf172c60bdf3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1541fb3d10febd1615d997794342b4e7') in 0.027945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10015.png
+  artifactKey: Guid(d0dbf050244b9654880f7f41b15c160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10015.png using Guid(d0dbf050244b9654880f7f41b15c160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4fac2f7ba4466189a722b6cacf0e479b') in 0.027874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.742831 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50001.png
+  artifactKey: Guid(2d813c3116ca65141b2e27d0d1bb27e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50001.png using Guid(2d813c3116ca65141b2e27d0d1bb27e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a8d439f54817ffe42abd0f89cf3a850') in 0.020249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50013.png
+  artifactKey: Guid(aa6acc83d8e4d764b8188c136045203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50013.png using Guid(aa6acc83d8e4d764b8188c136045203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ea84c10c7d999b0c5d39f2b48779d0e9') in 0.018829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50007.png
+  artifactKey: Guid(696909311e3389b4c9fe10ea554f70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50007.png using Guid(696909311e3389b4c9fe10ea554f70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dd35e0d8e73668eec14812713879493') in 0.016053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60004.png
+  artifactKey: Guid(36ef7ceda82dffa469350771e9aee0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60004.png using Guid(36ef7ceda82dffa469350771e9aee0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1e2a591491d06c0fb02da404023796b') in 0.015102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60006.png
+  artifactKey: Guid(34cf406ce7b87b4448db92b8afc058d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60006.png using Guid(34cf406ce7b87b4448db92b8afc058d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d2a3edd6efe67457e75ff8c3d98426f') in 0.020954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50003.png
+  artifactKey: Guid(1cc3c5cc8d546b341a214e409d35d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50003.png using Guid(1cc3c5cc8d546b341a214e409d35d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a68967c9060d371bfbddfbb6bdbb7b50') in 0.018116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70001.png
+  artifactKey: Guid(4f7510b2b190686458bedde39ceda537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70001.png using Guid(4f7510b2b190686458bedde39ceda537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8a46439b76b37cbebaf7d10222bdfc9c') in 0.013984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70007.png
+  artifactKey: Guid(960b17dbb4fedd5499b522fe82297f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70007.png using Guid(960b17dbb4fedd5499b522fe82297f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '831afb834e67b5aae81233d327de9bdc') in 0.020880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70010.png
+  artifactKey: Guid(a09c081542bbbcd45a32f0b177ecca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70010.png using Guid(a09c081542bbbcd45a32f0b177ecca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5045614e32d08f86cec7c93d02d6efc4') in 0.017785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60011.png
+  artifactKey: Guid(45c35b8dd0805b844b67ca0032093444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60011.png using Guid(45c35b8dd0805b844b67ca0032093444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d36b0a537d83632498b589c0e6e312c') in 0.016223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60002.png
+  artifactKey: Guid(c06b2a4682f40ec488ed94e1e15ea82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60002.png using Guid(c06b2a4682f40ec488ed94e1e15ea82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ada0b2801e6fa51572d654d627431f86') in 0.019475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70015.png
+  artifactKey: Guid(6b71a75cb5f78924f92447021bdcc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70015.png using Guid(6b71a75cb5f78924f92447021bdcc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ef2658b58eea4caed616791a22a667c5') in 0.016300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70008.png
+  artifactKey: Guid(0c32507978cfc4d4a8037d6d09fc1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70008.png using Guid(0c32507978cfc4d4a8037d6d09fc1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '970ce7d9c87094bb4e6b504c4d99a84e') in 0.018455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70004.png
+  artifactKey: Guid(03b6d21d1db508d47a0b6a6d83f2a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70004.png using Guid(03b6d21d1db508d47a0b6a6d83f2a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af284247b7cd4685c02d22e3f02897f4') in 0.020051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50015.png
+  artifactKey: Guid(ab6237a771d60eb49b651e238b50dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50015.png using Guid(ab6237a771d60eb49b651e238b50dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac488dfc40d336bc0173d2239805497c') in 0.017691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60010.png
+  artifactKey: Guid(2db744096161f2d46ba6a1e076057947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60010.png using Guid(2db744096161f2d46ba6a1e076057947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f8c1e900cfe3643ac54bdcb00a4e020') in 0.018415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70003.png
+  artifactKey: Guid(866407f1d86c3dd44860cef8c622a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70003.png using Guid(866407f1d86c3dd44860cef8c622a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e217fce4e17737b463d8d083c22a275b') in 0.021222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60005.png
+  artifactKey: Guid(723e842c499e5a142929fe92b221518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60005.png using Guid(723e842c499e5a142929fe92b221518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81fdbdc586a901880fdae10212325fdc') in 0.017781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60012.png
+  artifactKey: Guid(0a75a7088ef479b428036459ec12dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60012.png using Guid(0a75a7088ef479b428036459ec12dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f3468b96c5a78bec946155c47137a56') in 0.018232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50010.png
+  artifactKey: Guid(011d2b93719b0dd4b9d1a279152882de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50010.png using Guid(011d2b93719b0dd4b9d1a279152882de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '946bdd080564478ae63b23625a47a2d0') in 0.018584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60000.png
+  artifactKey: Guid(3d0c802d13be2004385811ebe32a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60000.png using Guid(3d0c802d13be2004385811ebe32a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee578393c97a6236353a2713251ce96f') in 0.023484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50005.png
+  artifactKey: Guid(8b1244615644e7444a7a04cc943be312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50005.png using Guid(8b1244615644e7444a7a04cc943be312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b57d819db84cb6fc12dddb69f77e04df') in 0.019677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60014.png
+  artifactKey: Guid(d2d701c8c3bc4034f89944bac8459bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60014.png using Guid(d2d701c8c3bc4034f89944bac8459bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca0be4d6341ab4a35ec4fa1700b36a6e') in 0.021809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70000.png
+  artifactKey: Guid(53e2c955b0cb14e4a95f65fcbab3beef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70000.png using Guid(53e2c955b0cb14e4a95f65fcbab3beef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '07f621fbd6893bd34bad39481549dd6c') in 0.018883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.522623 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40015.png
+  artifactKey: Guid(58fdc72b09bf83b40aee6dc2338da196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40015.png using Guid(58fdc72b09bf83b40aee6dc2338da196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '99333e7a5cbc4af1a2d6ccbbe65429f7') in 0.084268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70006.png
+  artifactKey: Guid(64aa5459ce5cfa44081b5fb6a3ac60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70006.png using Guid(64aa5459ce5cfa44081b5fb6a3ac60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '415bec4c282465c78f549118f532fef6') in 0.030692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50001.png
+  artifactKey: Guid(2d813c3116ca65141b2e27d0d1bb27e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50001.png using Guid(2d813c3116ca65141b2e27d0d1bb27e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1f142b38a691d0836bc4393a8f8d002') in 0.027597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001712 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50004.png
+  artifactKey: Guid(2aaa24898ed946748b2e0271956f0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50004.png using Guid(2aaa24898ed946748b2e0271956f0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee2093a84106466e4e317760532272a9') in 0.026328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60011.png
+  artifactKey: Guid(45c35b8dd0805b844b67ca0032093444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60011.png using Guid(45c35b8dd0805b844b67ca0032093444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2af45698fac6332ac1e782f448e5efac') in 0.031563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60002.png
+  artifactKey: Guid(c06b2a4682f40ec488ed94e1e15ea82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60002.png using Guid(c06b2a4682f40ec488ed94e1e15ea82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '747b9f9e3941e3d7cabde4be1e2c1e82') in 0.032109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70009.png
+  artifactKey: Guid(56041c1b6d3c6d245aec868e1a2317e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70009.png using Guid(56041c1b6d3c6d245aec868e1a2317e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7241377e0956446493f5efb2f42e6d70') in 0.031111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70008.png
+  artifactKey: Guid(0c32507978cfc4d4a8037d6d09fc1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70008.png using Guid(0c32507978cfc4d4a8037d6d09fc1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a2bc71e6744c70fbf543a2578f25f9f4') in 0.033278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50008.png
+  artifactKey: Guid(1a4c8a264acb5f949936150dfc83447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50008.png using Guid(1a4c8a264acb5f949936150dfc83447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64835051edaa06d3878d3ac86e3a5756') in 0.027353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50007.png
+  artifactKey: Guid(696909311e3389b4c9fe10ea554f70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50007.png using Guid(696909311e3389b4c9fe10ea554f70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c99993204c541945fad72087565a3527') in 0.026252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60006.png
+  artifactKey: Guid(34cf406ce7b87b4448db92b8afc058d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60006.png using Guid(34cf406ce7b87b4448db92b8afc058d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f95f078623dfdc3b0479c1aed583d5f9') in 0.023754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50003.png
+  artifactKey: Guid(1cc3c5cc8d546b341a214e409d35d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50003.png using Guid(1cc3c5cc8d546b341a214e409d35d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6d8e86132af7e9aac9d0254e35623a78') in 0.024606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70014.png
+  artifactKey: Guid(e19feb502eb9d1540a230514e1b96946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70014.png using Guid(e19feb502eb9d1540a230514e1b96946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76b5e58183e5fb3d1a8032be1449d3df') in 0.031499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50015.png
+  artifactKey: Guid(ab6237a771d60eb49b651e238b50dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50015.png using Guid(ab6237a771d60eb49b651e238b50dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '37ab7b2feb3f1f358879740dbbfa994b') in 0.023786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60010.png
+  artifactKey: Guid(2db744096161f2d46ba6a1e076057947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60010.png using Guid(2db744096161f2d46ba6a1e076057947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8f025e3b167f6a0e1261247acb7ef86') in 0.020982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70003.png
+  artifactKey: Guid(866407f1d86c3dd44860cef8c622a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70003.png using Guid(866407f1d86c3dd44860cef8c622a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1ce5312f391ec38455396b17cc9024a') in 0.020968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50002.png
+  artifactKey: Guid(5d84463d4202edd4db7d8761ea22a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50002.png using Guid(5d84463d4202edd4db7d8761ea22a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74a3f90e2b2198980b0dd822171c3cb4') in 0.025617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_50000.png
+  artifactKey: Guid(dd3321ae8e0828d4f851c0f21152095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_50000.png using Guid(dd3321ae8e0828d4f851c0f21152095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b38e22673e7ed5c9bf645b438ff6d716') in 0.018780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60012.png
+  artifactKey: Guid(0a75a7088ef479b428036459ec12dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60012.png using Guid(0a75a7088ef479b428036459ec12dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cc6d2eaeacb2dceecce53f0da850b69f') in 0.019438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60008.png
+  artifactKey: Guid(59c374ac2e4666f40ab4ee2b9f84afdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60008.png using Guid(59c374ac2e4666f40ab4ee2b9f84afdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6fe7227dd5a41163b36e15523823b860') in 0.018398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60000.png
+  artifactKey: Guid(3d0c802d13be2004385811ebe32a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60000.png using Guid(3d0c802d13be2004385811ebe32a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11ba04e8438f4271c49a09187eb1287b') in 0.024040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70005.png
+  artifactKey: Guid(64b8859be588363478f0c16bb3b73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70005.png using Guid(64b8859be588363478f0c16bb3b73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0635adaf8ce7f22ae59e2aba2be7774') in 0.015126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_60014.png
+  artifactKey: Guid(d2d701c8c3bc4034f89944bac8459bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_60014.png using Guid(d2d701c8c3bc4034f89944bac8459bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a9e51ae80db4d58b5411bec7ba230655') in 0.016449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_70000.png
+  artifactKey: Guid(53e2c955b0cb14e4a95f65fcbab3beef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_70000.png using Guid(53e2c955b0cb14e4a95f65fcbab3beef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a92e9e2b3c2abba287e5f0ed43cb4d1a') in 0.018118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1287.175082 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40000.png
+  artifactKey: Guid(a3c78e991bf1fe94cbac33db14766d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40000.png using Guid(a3c78e991bf1fe94cbac33db14766d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ccfa16768c96664ada9ad484497515ae') in 0.034903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40004.png
+  artifactKey: Guid(80747c1775246ff4badc4142aab7457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40004.png using Guid(80747c1775246ff4badc4142aab7457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42858a6bdaaeb36b1113e16c934e9d1d') in 0.027940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40013.png
+  artifactKey: Guid(97ad17c9512676840b1edb2ba367f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40013.png using Guid(97ad17c9512676840b1edb2ba367f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '020473f19bc2524f2173e2ef33fa5f47') in 0.029204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40001.png
+  artifactKey: Guid(594ddc02866615f42bfe67314f095c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40001.png using Guid(594ddc02866615f42bfe67314f095c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fde26cbcb77ff2f2bf8e0477049191b5') in 0.029270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40002.png
+  artifactKey: Guid(591a94a7038a6e143985b50d8602b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40002.png using Guid(591a94a7038a6e143985b50d8602b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54bc207d47b269c89edd16c3b1580950') in 0.027207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40014.png
+  artifactKey: Guid(bb8fbb59ccd574b448d7b0551c812224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40014.png using Guid(bb8fbb59ccd574b448d7b0551c812224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'abae9b15382cc7eade0a6b22eb723537') in 0.025338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_40009.png
+  artifactKey: Guid(ac6772e0e67cf004ea3a49343699b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_40009.png using Guid(ac6772e0e67cf004ea3a49343699b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '160652dbf6ece5466459034a539e541e') in 0.028258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014110 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20015.png
+  artifactKey: Guid(d3593e6831c956a46aacb0b3cf521f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20015.png using Guid(d3593e6831c956a46aacb0b3cf521f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0dfe5339ee3ca76d8b9710f0b62c2a0') in 0.024733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30003.png
+  artifactKey: Guid(0876356918588e34a91016171b51051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30003.png using Guid(0876356918588e34a91016171b51051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '48fcf742d7b57ec801cc38a6acc74d6d') in 0.028272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30011.png
+  artifactKey: Guid(6867053a50de5d9408c6942fd7b314e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30011.png using Guid(6867053a50de5d9408c6942fd7b314e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '609497840edcc18a03f7eac952b02b27') in 0.031173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30006.png
+  artifactKey: Guid(e785a9865b8910940b1c62a813a24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30006.png using Guid(e785a9865b8910940b1c62a813a24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15fa98eb72cd4aaf77d7400523a1c495') in 0.029553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30002.png
+  artifactKey: Guid(4bf4680d7cb547a4db4bab86807b991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30002.png using Guid(4bf4680d7cb547a4db4bab86807b991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5742d5c084e652c014b4e88acd2db3da') in 0.027587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30012.png
+  artifactKey: Guid(cd143458272e416438f25f18d2337cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30012.png using Guid(cd143458272e416438f25f18d2337cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08cd24d5d026900bcf580932418e50fc') in 0.026425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30014.png
+  artifactKey: Guid(5ce124789761bef43b9f017166df6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30014.png using Guid(5ce124789761bef43b9f017166df6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '686ebd25df4311b48d67bc58141e833d') in 0.027194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_30013.png
+  artifactKey: Guid(7a27e40561aad464cbfa734d2acc562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_30013.png using Guid(7a27e40561aad464cbfa734d2acc562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '837c39c0276a277a923c63ce7f6fba4a') in 0.032797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.079661 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20000.png
+  artifactKey: Guid(3956097c3b8a8a547bf6525992aca6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20000.png using Guid(3956097c3b8a8a547bf6525992aca6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a165c47c05813418b34754e73a07844') in 0.029463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20012.png
+  artifactKey: Guid(79dccb50696b75d41b70fd1418563475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20012.png using Guid(79dccb50696b75d41b70fd1418563475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '868f4adef9a56ccadaa871bc7aca3f99') in 0.026576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20014.png
+  artifactKey: Guid(11890b4b56ee09d409604cf1b0a61697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20014.png using Guid(11890b4b56ee09d409604cf1b0a61697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '29fed83f0892673e4b5539f33a601a21') in 0.028729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20006.png
+  artifactKey: Guid(86eeaf00d32348345814ec26242b8d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20006.png using Guid(86eeaf00d32348345814ec26242b8d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '848131178e70a09e8abcc7205c0a696b') in 0.028880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20011.png
+  artifactKey: Guid(1d59a8f963005e14a88e543824d7fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20011.png using Guid(1d59a8f963005e14a88e543824d7fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9d9f611323eee4f7b6e623e1349ac97c') in 0.029194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20007.png
+  artifactKey: Guid(fa56b66e76cb92b4dbeb264e343db8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20007.png using Guid(fa56b66e76cb92b4dbeb264e343db8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2ee25be14afcfe45f798cc1e8d5dc47') in 0.029697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10014.png
+  artifactKey: Guid(c9fae38abb59c0f4994bec538cfc8ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10014.png using Guid(c9fae38abb59c0f4994bec538cfc8ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f43816e9ab2652b1b4183c3a0da9e424') in 0.025804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10000.png
+  artifactKey: Guid(de001baf43ab86d4faf89915b7ac3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10000.png using Guid(de001baf43ab86d4faf89915b7ac3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '44e4b194d3e25f1fea2e07a2df9dbe8c') in 0.025722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00015.png
+  artifactKey: Guid(5e328ce1ecbfc6a4da176436b78f86bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00015.png using Guid(5e328ce1ecbfc6a4da176436b78f86bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e17645cf047c7ed554ee123aa53f597d') in 0.025675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10005.png
+  artifactKey: Guid(7439a1dab0855ba4181113d40551d195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10005.png using Guid(7439a1dab0855ba4181113d40551d195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e5d17792247f63fc0662e3cb7ab0b11') in 0.025960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10006.png
+  artifactKey: Guid(544acd4963da4b04fbc8094eb68cc3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10006.png using Guid(544acd4963da4b04fbc8094eb68cc3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed80ddf460f9bd97d461068e4d5d0578') in 0.026284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10001.png
+  artifactKey: Guid(ca1ab652356686645aa49ce61154cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10001.png using Guid(ca1ab652356686645aa49ce61154cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0e34d73de8d9e6598130e067a633352') in 0.026081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_20001.png
+  artifactKey: Guid(5060251d3ffd9a646b5712eee69a9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_20001.png using Guid(5060251d3ffd9a646b5712eee69a9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acea519596a4f1a5593181dc98f93526') in 0.026944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10010.png
+  artifactKey: Guid(b071077d1afdda14cba726116745a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10010.png using Guid(b071077d1afdda14cba726116745a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84cff8b41e71acf9abdc78778c58a2d3') in 0.030605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10011.png
+  artifactKey: Guid(1c2361067d1211847a898d493b38b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10011.png using Guid(1c2361067d1211847a898d493b38b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11168e46d93bcd033637aa41896574f0') in 0.026262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_10004.png
+  artifactKey: Guid(e8e1f0e580920984287fd705ac447455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_10004.png using Guid(e8e1f0e580920984287fd705ac447455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e351e38d76e2c5c2abaebc885e284451') in 0.025904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.550079 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00001.png
+  artifactKey: Guid(f8b3b9ab74b97084f8e33658d88dd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00001.png using Guid(f8b3b9ab74b97084f8e33658d88dd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4408ab255e87108aa377243ebf54659a') in 0.025420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00009.png
+  artifactKey: Guid(5dfa1faec2eaa9742aeebca16c43bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00009.png using Guid(5dfa1faec2eaa9742aeebca16c43bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '520d12c96065c2a97495332c46293ac4') in 0.029357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00003.png
+  artifactKey: Guid(809d54b37bb0f264aa94da05b05ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00003.png using Guid(809d54b37bb0f264aa94da05b05ea230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '95d6bf12f63c2a08e7636cf85170caf3') in 0.028983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00007.png
+  artifactKey: Guid(d0e5dffb67fc3a74fa45d642c5e1af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00007.png using Guid(d0e5dffb67fc3a74fa45d642c5e1af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0202c988b07992090e3ed98c90511fe4') in 0.026328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00014.png
+  artifactKey: Guid(129590740e503884d9e32fb412ae535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00014.png using Guid(129590740e503884d9e32fb412ae535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '002bf2ca230fc5da17990ca90a0e5123') in 0.027905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00010.png
+  artifactKey: Guid(02d4d51c8949d9b44847abeb6b144a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00010.png using Guid(02d4d51c8949d9b44847abeb6b144a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2c72e5d5380d984f91fadb6419458b54') in 0.032401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/isometric_Mini-Crusader/idle/crusader_idle_00011.png
+  artifactKey: Guid(5ef07e8c0a747564998a579e45b85eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/isometric_Mini-Crusader/idle/crusader_idle_00011.png using Guid(5ef07e8c0a747564998a579e45b85eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f245a693c746d4528a4e04da60846a6') in 0.030385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.419 seconds
+Refreshing native plugins compatible for Editor in 7.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 25.832 seconds
+Domain Reload Profiling: 32246ms
+	BeginReloadAssembly (498ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (169ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (5756ms)
+		LoadAssemblies (5915ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (25833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 15.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3655.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 10.210800 ms (FindLiveObjects: 0.649800 ms CreateObjectMapping: 0.789900 ms MarkObjects: 8.448900 ms  DeleteObjects: 0.320800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.078 seconds
+Refreshing native plugins compatible for Editor in 11.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.922 seconds
+Domain Reload Profiling: 3994ms
+	BeginReloadAssembly (283ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (571ms)
+		LoadAssemblies (655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (801ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3659.
+Memory consumption went from 126.3 MB to 126.3 MB.
+Total: 17.152900 ms (FindLiveObjects: 1.963000 ms CreateObjectMapping: 1.263300 ms MarkObjects: 12.564100 ms  DeleteObjects: 1.359600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.508 seconds
+Domain Reload Profiling: 3244ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3662.
+Memory consumption went from 126.3 MB to 126.3 MB.
+Total: 4.289900 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.257500 ms MarkObjects: 3.674000 ms  DeleteObjects: 0.076500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
